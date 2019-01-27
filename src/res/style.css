@@ -1,0 +1,96 @@
+#intro1{
+	-fx-font: normal bold 24.0px sans-serif;
+	-fx-padding: 10;
+}
+
+#intro2{
+	-fx-font: normal bold 36.0px sans-serif;
+	-fx-padding: 10.0;
+}
+
+#introScreen{
+  	-fx-padding: 20.0 40.0 40.0 80.0;
+}
+
+#loginScreen{
+	-fx-padding: 10.0;
+  	-fx-font: normal bold 20.0px sans-serif;
+    -fx-alignment: center ;
+}
+
+#error{
+	-fx-font: normal bold 16.0px sans-serif;
+	-fx-text-fill: red;
+}
+
+#info{
+	-fx-font: normal bold 16.0px sans-serif;
+	-fx-text-fill: green;
+}
+
+#loginScreen .text-field{
+	-fx-padding: 5.0 
+}
+
+
+#searchScreen{
+	-fx-padding: 20.0 40.0 20.0 0.0;
+  	-fx-alignment: center;
+}
+
+#tableScreen{
+	-fx-padding: 20.0 140.0 20.0 140.0;
+  	-fx-alignment: center ;
+}
+
+#tableScreen .text{
+  	-fx-font: normal bold 16.0px sans-serif;
+}
+
+#tableScreen {
+	-fx-padding: 20.0 140.0 20.0 140.0;
+}
+
+#detailsScreen{
+	-fx-padding: 20.0 160.0;
+  	-fx-alignment: center ;
+  	-fx-min-width:500.0px;
+}
+
+#detailsScreen .label, #pane{
+	-fx-min-width:180.0px;
+	-fx-padding: 5.0;
+}
+
+.button { 
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 10.0 10.0 10.0 10.0;
+	-fx-min-width:120.0px;
+}
+
+.button:hover {
+-fx-background-color: yellow;
+}
+
+.label{
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 10.0 10.0 10.0 10.0;
+	-fx-min-width:120.0px;
+}
+
+.choice-box{
+	-fx-font: normal bold 9.0px sans-serif;
+	-fx-padding: 2.0 2.0 2.0 2.0;
+	-fx-min-width:200.0px;
+}
+
+.radio-button{
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 10.0 5.0 10.0 5.0;
+}
+
+.text-field{
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 10.0 10.0 10.0 10.0;
+	-fx-min-width:200.0px;
+}
